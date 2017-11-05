@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from sqlalchemy import create_engine
-from sqlalchemy.orm import relationship,sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column,String,Integer,Text
+from sqlalchemy import Column,String,Integer
 
 engine = create_engine('mysql+mysqldb://root@localhost:3306/shiyanlou?charset=utf8')
 Base = declarative_base()

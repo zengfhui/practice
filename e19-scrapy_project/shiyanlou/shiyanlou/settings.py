@@ -13,7 +13,7 @@ BOT_NAME = 'shiyanlou'
 
 SPIDER_MODULES = ['shiyanlou.spiders']
 NEWSPIDER_MODULE = 'shiyanlou.spiders'
-
+#HTTPEERROR_ALLOWED_CODES = [404]
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'shiyanlou (+http://www.yourdomain.com)'

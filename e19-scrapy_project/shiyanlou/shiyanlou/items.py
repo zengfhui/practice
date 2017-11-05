@@ -14,6 +14,6 @@ class ShiyanlouItem(scrapy.Item):
     pass
 class CourseItem(scrapy.Item):
 	name = scrapy.Field()
-	descripition = scrapy.Field()
+	description = scrapy.Field()
 	type = scrapy.Field()
 	students = scrapy.Field()
